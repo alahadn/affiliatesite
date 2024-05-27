@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    html {
+  background: #30336B
+
+
+
+
+
+
+
+;
+  font-family: system-ui;
+  -webkit-font-smoothing: antialiased;
+  padding: 20px 0;
+}
+
+header {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.band {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+  
+  display: grid;
+  
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+
+  text-decoration: none;
+  color: #444;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  
+    
+  &:hover {
+    top: -2px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+  }
+  
+  article {
+    padding: 20px;
+    flex: 1;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+  }
+  
+  p {
+    flex: 1;
+    line-height: 1.4;
+  }
+  
+  span {
+    font-size: 12px;
+    font-weight: bold;
+    color: blueviolet;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    margin: 1em 3em 0em 0em;
+
+
+  }
+  .span2 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+
+  }
+  .thumb {
+    padding-bottom: 100%;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+.item-1 {
+  @media (min-width: 60em) {
+    grid-column: 1 / span 2;
+    
+    
+    h1 {
+      font-size: 24px;
+    }
+  }
+}
+</style>
+<body>
+    <header>
+        <h1 style="color: white;">Shoes</h1>
+      </header>
+      <div class="band">
+        <div class="item-1">
+          <a href="https://amzn.to/3VjCaSV" class="card">
+            <div class="thumb" style="background-image: url(https://m.media-amazon.com/images/I/61gHfm4c5UL._SY500_.jpg)" ></div>
+            <article>
+              <h1>Kraasa Sports Shoes for Men</h1>
+              
+              <span class="span2">-46% off </span>
+
+              <span > ₹479 /- </span>
+              </article>
+          </a>
+        </div>
+        <div class="item-2">
+            <a href="https://amzn.to/3wIXZBU" class="card">
+              <div class="thumb" style="background-image: url(https://m.media-amazon.com/images/I/61ZoFzvC3NL._SY500_.jpg);"></div>
+              <article>
+                <h1>Men Casual shoes</h1>
+                
+                <span class="span2">-83% off </span>
+  
+                <span>₹499 /- </span>
+                </article>
+            </a>
+          </div>
+          <div class="item-3">
+            <a href="https://amzn.to/4bTU0RJ" class="card">
+              <div class="thumb" style="background-image: url(https://m.media-amazon.com/images/I/61P76MJqzuL._SY500_.jpg);"></div>
+              <article>
+                <h1>Multicolor Running Casual Sports Shoes</h1>
+                
+                <span class="span2">-76% off </span>
+  
+                <span>₹449 /- </span>
+                </article>
+            </a>
+          </div>
+        <div class="item-4">
+            <a href="https://amzn.to/3R0uu5n" class="card">
+              <div class="thumb" style="background-image: url(https://m.media-amazon.com/images/I/71xzQbMvdZL._SX500_.jpg);"></div>
+              <article>
+                <h1>Trendy Sports Running Shoes </h1>
+                 
+            <span class="span2">-69% off </span>
+
+            <span href="https://amzn.to/4dYxCZu" >₹ 399 /- </span>
+
+              </article>
+            </a>
+          </div>
+          <div class="item-5">
+            <a href="https://amzn.to/3X4SPKW" class="card">
+              <div class="thumb" style="background-image: url(https://m.media-amazon.com/images/I/71gfqvijWKL._SY500_.jpg);"></div>
+              <article>
+                <h1> Sneakers Casual Shoes</h1>
+                
+                <span class="span2">-67% off </span>
+  
+                <span>₹429 /-</span>
+                </article>
+            </a>
+          </div>
+          <div class="item-6">
+            <a href="https://amzn.to/3R4DnLk" class="card">
+              <div class="thumb" style="background-image: url(https://m.media-amazon.com/images/I/51vYEqClTpL._SY395_.jpg);"></div>
+              <article>
+                <h1>Casual Fashion Sneaker Walking Shoes </h1>
+                
+                <span class="span2">-56% off </span>
+  
+                <span>₹439 /-</span>
+                </article>
+            </a>
+          </div>
+          <div class="item-7">
+            <a href="https://amzn.to/3R1wJ8o" class="card">
+              <div class="thumb" style="background-image: url(https://m.media-amazon.com/images/I/51kZRxvxg0L._SY535_.jpg);"></div>
+              <article>
+                <h1>Sneakers Comfort, Perfect Casual White Shoes </h1>
+                
+                <span class="span2">-57% off </span>
+  
+                <span>₹429 /-</span>
+                </article>
+            </a>
+          </div>
+
+          <div class="item-8">
+            <a href="https://amzn.to/3R4DxSW" class="card">
+              <div class="thumb" style="background-image: url(https://m.media-amazon.com/images/I/71S+i8gIl5L._SY500_.jpg);"></div>
+              <article>
+                <h1>Casual Shoes | Sports Shoes</h1>
+                
+                <span class="span2">-68% off </span>
+  
+                <span>₹419 /-</span>
+                </article>
+            </a>
+          </div>
+            <div class="item-9">
+            <a href="https://amzn.to/3V19Pzm" class="card">
+              <div class="thumb" style="background-image: url(https://m.media-amazon.com/images/I/71A2Iq0Q7-L._SX425_.jpg);"></div>
+              <article>
+                <h1>Running Walking Sports Shoes</h1>
+                
+                <span class="span2">-52% off </span>
+  
+                <span>₹479 /-</span>
+                </article>
+            </a>
+          </div>
+          <div class="item-10">
+            <a href="https://amzn.to/3KhBIxZ" class="card">
+              <div class="thumb" style="background-image: url(https://m.media-amazon.com/images/I/71NmVVyVMVL._SY500_.jpg);"></div>
+              <article>
+                <h1>Men Running and Walking Shoes</h1>
+                
+                <span class="span2">-52% off </span>
+  
+                <span>₹479 /-</span>
+                </article>
+            </a>
+          </div>
+
+      </div>
+</body>
+</html>
