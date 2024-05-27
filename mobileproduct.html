@@ -25,17 +25,10 @@ header {
   
   display: grid;
   
-  grid-template-columns: 3fr;
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   grid-gap: 20px;
   
-  @media (min-width: 40em) {
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  @media (min-width: 30em) {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 
 .card {
@@ -118,7 +111,7 @@ header {
           <a href="" class="card">
             <div class="thumb" style="background-image: url();"></div>
             <article>
-              <h1>sadfgmple</h1>
+              <h1>sample</h1>
               
               <span class="span2">price </span>
 
